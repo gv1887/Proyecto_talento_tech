@@ -238,6 +238,9 @@ header img:hover {
         display: flex;
         flex-direction: column;
         height: 25vh;
+        padding-top: 0;
+        padding-bottom: 25px;
+
     }
 
     .menu ul {
@@ -259,7 +262,7 @@ header img:hover {
     #historia,
     #ranking {
         margin-top: 50px;
-        flex-direction: column;
+        
         align-items: center;
         text-align: center;
 
@@ -283,19 +286,23 @@ header img:hover {
     .sombra-img {
         display: flex;
         justify-content: center;
-        box-shadow: 5px -7px 58px 100px rgba(0, 0, 0, 0.753) inset;
+        box-shadow: 5px -7px 58px 100px rgba(0, 0, 0, 0.37) inset;
     }
 
     .img-poatan {
 
-        width: 80vw;
+        width: 100%;
+        height: auto;
+        
     }
 
    .presentacion h1{
     font-size: 65px;
    }
 
-
+   #contacto{
+    margin-top: 30vh;
+   }
     #contacto form {
         display: flex;
         justify-content: center;
@@ -303,4 +310,18 @@ header img:hover {
         text-align: center;
     }
 
+}
+
+@media (max-width: 800px){
+    #historia,
+    #ranking {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    .presentacion h1{
+    font-size: 60px;
+   }
 }
