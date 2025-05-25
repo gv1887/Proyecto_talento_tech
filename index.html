@@ -20,8 +20,8 @@
             <ul>
                 <li><a href="#Eventos">Eventos</a></li>
                 <li><a href="#historia">Historia</a></li>
-                <li><a href="#ranking">Reglas</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="#ranking">Ranking</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -57,18 +57,29 @@
 
                 </div>
                 <div class="sombra-img">
-                    <img class="img-poatan" src="assets/cinturon.jpg" alt="peleador alex 'poatan' pereira">
+                    <img class="img-poatan" src="assets/cinturon.jpg" alt="cinturon de campeon wgp">
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div>
+        <div id="contacto">
             <form>
-                <label for=""></label>
+                <h1>Contacto</h1>
+                <label>Nombre</label>
+                <input type="text" id="nombre" required>
+
+                <label>Correo</label>
+                <input type="email" name="correo" id="correo" required>
+
+                <label>Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                <button type="submit" id="btn-enviar">Enviar</button>
+            
             </form>
         </div>
+        <p>&copy; Gabriel Valdez</p>
     </footer>
 </body>
 
